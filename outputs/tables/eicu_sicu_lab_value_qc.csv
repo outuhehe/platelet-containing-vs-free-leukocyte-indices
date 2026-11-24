@@ -1,0 +1,6 @@
+variable,n_panel_rows,n_missing,n_zero,n_negative,min,median,max
+polys_pct,7386,0,1,0,0,80,100
+lymphs_pct,7386,0,27,0,0,10,100
+monos_pct,7386,0,44,0,0,6.9,45
+wbc_k,7386,0,0,0,0.1,10.8,142.6
+platelet_k,7386,54,0,0,2,202,1207

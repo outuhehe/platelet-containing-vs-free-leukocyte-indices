@@ -1,0 +1,53 @@
+DATA DICTIONARY - sign conventions and sample definitions
+=========================================================
+
+Manuscript direction: delta_AUC = AUC(platelet-free) - AUC(platelet-containing).
+Positive values favour the platelet-free index. All manuscript tables use this
+direction.
+
+The paired-analysis engine (R/03, R/04, R/07, R/08 first-stay/emergency outputs,
+R/14) stores delta_AUC in the OPPOSITE order:
+    delta_AUC = AUC(platelet-containing) - AUC(platelet-free)
+so those CSV values (and their CI columns) are NEGATIVE when the platelet-free
+index discriminates better. The AUC columns, p values and conclusions are
+identical; only the sign of the difference is reversed relative to the paper.
+
+The IPW outputs (R/10) and the panel-selection sensitivity (R/08
+cbc_panel_selection_*) use the manuscript direction (positive = platelet-free
+better).
+
+In eICU paired files, AUC_a is the platelet-containing index (SII or PIV) and
+AUC_control is the platelet-free comparator (NLR or SIRI), except in the
+lymphocyte-vs-NLR control file noted below.
+
+Sample definitions:
+- Primary available-case analysis: NLR vs SII n=886 (87 events);
+  SIRI vs PIV n=879 (87 events). Source: available_case_primary.csv.
+- Table2_single_auc_paper.csv and Table3_paired_auc_paper.csv are the
+  COMMON five-index sample (n=879) sensitivity versions, NOT the primary
+  available-case tables, despite the "paper" suffix.
+
+Per-file listing (delta column and convention):
+
+- Table3_paired_auc_paper.csv: column 'dAUC' = containing minus free (negative favours platelet-free)
+- available_case_plr.csv: column 'delta_AUC' = containing minus free (negative favours platelet-free)
+- available_case_primary.csv: column 'delta_AUC' = containing minus free (negative favours platelet-free)
+- cbc_panel_selection_sensitivity.csv: column 'delta_AUC' = free minus containing (positive favours platelet-free)
+- cluster_bootstrap_ci.csv: explicit delta_definition column: platelet-containing minus platelet-free
+- common_sample_sensitivity.csv: column 'delta_AUC' = containing minus free (negative favours platelet-free)
+- eicu_sicu_lymphocyte_vs_nlr.csv: delta_AUC = AUC_a (standalone lymphocyte) minus AUC_control (NLR); not a platelet comparison
+- eicu_sicu_paired_delong_bootstrap.csv: column 'delta_AUC' = containing minus free (negative favours platelet-free)
+- eicu_sicu_prewindow_pairs.csv: column 'delta_AUC' = containing minus free (negative favours platelet-free)
+- eicu_vs_mimic_paired_delta.csv: mimic_delta_AUC and eICU_delta_AUC are containing minus free (negative); delta_difference = eICU minus MIMIC
+- emergency_stratified.csv: column 'delta_AUC' = containing minus free (negative favours platelet-free)
+- first_stay_sensitivity.csv: column 'delta_AUC' = containing minus free (negative favours platelet-free)
+- ipw_outcome_conditioned_primary.csv: column 'weighted_delta_AUC' = free minus containing (positive favours platelet-free)
+- ipw_weighted_primary.csv: column 'weighted_delta_AUC' = free minus containing (positive favours platelet-free)
+- lymphocyte_vs_nlr_paired_delong.csv: column 'delta_AUC_NLR_minus_lymphocyte' is self-describing: NLR minus standalone lymphocyte (positive = NLR higher)
+- reviewer_additional_results.csv: delta_AUC = AUC_PLR minus AUC_inverse_lymphocyte (containing minus free); platelet_AUC columns are the standalone platelet marker
+- reviewer_all_absolute_subgroup_ci.csv: column 'delta_AUC' = containing minus free (negative favours platelet-free)
+- table3_paired_delta.csv: column 'delta_AUC' = containing minus free (negative favours platelet-free)
+- table3_paired_delta_v2.csv: column 'delta_AUC' = containing minus free (negative favours platelet-free)
+- table3b_bootstrap_ci.csv: column 'delta_AUC' = containing minus free (negative favours platelet-free)
+- table3b_bootstrap_ci_v2.csv: column 'delta_AUC' = containing minus free (negative favours platelet-free)
+- tableS_all_abs_subgroup.csv: column 'dAUC' = containing minus free (negative favours platelet-free)

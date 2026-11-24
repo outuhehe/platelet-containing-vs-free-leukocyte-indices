@@ -1,0 +1,3 @@
+"comparison","n","events","weighted_AUC_free","weighted_AUC_containing","weighted_delta_AUC"
+"NLR_vs_SII_outcome_conditioned",886,87,0.674973794776464,0.555656023986588,0.119317770789876
+"SIRI_vs_PIV_outcome_conditioned",879,87,0.63258131974839,0.540528577563261,0.0920527421851289

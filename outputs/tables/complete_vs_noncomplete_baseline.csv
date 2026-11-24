@@ -1,0 +1,6 @@
+"variable","complete","non_complete","p","test"
+"age","61 [46, 74]","63 [49, 76]","0.0675","Wilcoxon"
+"charlson","3 [1, 6]","3 [1, 6]","0.388","Wilcoxon"
+"sex","F: 496 (56.4%); M: 383 (43.6%)","F: 798 (53.3%); M: 699 (46.7%)","0.147","Fisher (Monte Carlo)"
+"admission_type","AMBULATORY OBSERVATION: 1 (0.1%); DIRECT EMER.: 24 (2.7%); DIRECT OBSERVATION: 2 (0.2%); ELECTIVE: 13 (1.5%); EU OBSERVATION: 40 (4.6%); EW EMER.: 502 (57.1%); OBSERVATION ADMIT: 163 (18.5%); SURGICAL SAME DAY ADMISSION: 24 (2.7%); URGENT: 110 (12.5%)","AMBULATORY OBSERVATION: 2 (0.1%); DIRECT EMER.: 80 (5.3%); DIRECT OBSERVATION: 1 (0.1%); ELECTIVE: 49 (3.3%); EU OBSERVATION: 21 (1.4%); EW EMER.: 735 (49.1%); OBSERVATION ADMIT: 325 (21.7%); SURGICAL SAME DAY ADMISSION: 95 (6.3%); URGENT: 189 (12.6%)","1e-04","Fisher (Monte Carlo)"
+"in_hospital_mortality_pct","9.9","6.28","0.00175","two-sample proportion"

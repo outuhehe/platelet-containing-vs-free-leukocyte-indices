@@ -1,0 +1,2 @@
+comparison,AUC_a,AUC_control,delta_AUC,direction,DeLong_p,n,events
+Lymphocyte vs NLR,0.586839916606257,0.599255553495063,-0.0124156368888064,negative,0.437957698490306,2855,276

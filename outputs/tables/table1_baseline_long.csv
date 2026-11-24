@@ -1,0 +1,24 @@
+section,variable,level,overall,survivors,nonsurvivors,p
+Continuous,age,"","61.0 [46.0, 74.0]","60.0 [44.0, 73.0]","72.0 [61.5, 80.0]",6.61e-09
+Categorical,sex,F,496 (56.4),457 (57.7),39 (44.8),0.023
+Categorical,sex,M,383 (43.6),335 (42.3),48 (55.2),""
+Categorical,race_group,White,592 (67.3),535 (67.6),57 (65.5),0.0264
+Categorical,race_group,Black/African American,104 (11.8),95 (12.0),9 (10.3),""
+Categorical,race_group,Hispanic/Latino,64 (7.3),62 (7.8),2 (2.3),""
+Categorical,race_group,Asian,36 (4.1),33 (4.2),3 (3.4),""
+Categorical,race_group,Other/Unknown,83 (9.4),67 (8.5),16 (18.4),""
+Continuous,charlson,"","3.0 [1.0, 6.0]","3.0 [1.0, 5.0]","5.0 [4.0, 7.0]",5.06e-13
+Categorical,admission_type,AMBULATORY OBSERVATION,1 (0.1),1 (0.1),0 (0.0),0.0127
+Categorical,admission_type,DIRECT EMER.,24 (2.7),20 (2.5),4 (4.6),""
+Categorical,admission_type,DIRECT OBSERVATION,2 (0.2),2 (0.3),0 (0.0),""
+Categorical,admission_type,ELECTIVE,13 (1.5),8 (1.0),5 (5.7),""
+Categorical,admission_type,EU OBSERVATION,40 (4.6),40 (5.1),0 (0.0),""
+Categorical,admission_type,EW EMER.,502 (57.1),458 (57.8),44 (50.6),""
+Categorical,admission_type,OBSERVATION ADMIT,163 (18.5),144 (18.2),19 (21.8),""
+Categorical,admission_type,SURGICAL SAME DAY ADMISSION,24 (2.7),21 (2.7),3 (3.4),""
+Categorical,admission_type,URGENT,110 (12.5),98 (12.4),12 (13.8),""
+Continuous,nlr,"","6.9 [3.6, 13.5]","6.5 [3.4, 12.3]","14.6 [6.3, 32.6]",6.05e-09
+Continuous,sii,"","1765.0 [815.9, 3696.9]","1732.2 [802.4, 3490.3]","2423.3 [905.2, 7110.8]",0.0132
+Continuous,siri,"","3.6 [1.5, 9.0]","3.5 [1.4, 8.4]","8.3 [3.1, 21.7]",8.6e-07
+Continuous,piv,"","973.6 [347.9, 2507.8]","926.3 [346.2, 2425.0]","1361.0 [392.2, 4228.7]",0.025
+Continuous,plr,"","213.5 [134.8, 352.9]","210.9 [135.9, 345.6]","266.7 [117.4, 539.5]",0.178

@@ -1,0 +1,1306 @@
+{
+  "Additional_file_1_reproducible_code.zip": {
+    "outputs/tables/admission_type_stratum_counts.csv": {
+      "columns": [
+        "admission_type_group",
+        "n",
+        "events"
+      ],
+      "max_rows": 3
+    },
+    "outputs/tables/available_case_plr.csv": {
+      "columns": [
+        "comparison",
+        "AUC_free",
+        "AUC_containing",
+        "delta_AUC",
+        "CI95_lower",
+        "CI95_upper",
+        "DeLong_p",
+        "n",
+        "events"
+      ],
+      "max_rows": 1
+    },
+    "outputs/tables/available_case_primary.csv": {
+      "columns": [
+        "comparison",
+        "AUC_free",
+        "AUC_containing",
+        "delta_AUC",
+        "CI95_lower",
+        "CI95_upper",
+        "DeLong_p",
+        "n",
+        "events",
+        "BH_FDR"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/cbc_panel_selection_counts.csv": {
+      "columns": [
+        "comparison",
+        "n_absolute_first",
+        "n_latest_panel",
+        "n_hadm_selecting_different_panel"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/cbc_panel_selection_sensitivity.csv": {
+      "columns": [
+        "selection",
+        "comparison",
+        "n",
+        "events",
+        "AUC_free",
+        "AUC_containing",
+        "delta_AUC",
+        "DeLong_p",
+        "CI95_lower",
+        "CI95_upper",
+        "bootstrap_replicates"
+      ],
+      "max_rows": 4
+    },
+    "outputs/tables/cluster_bootstrap_ci.csv": {
+      "columns": [
+        "comparison",
+        "delta_definition",
+        "cluster_CI95_lower",
+        "cluster_CI95_upper",
+        "n_subjects"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/common_sample_sensitivity.csv": {
+      "columns": [
+        "comparison",
+        "AUC_free",
+        "AUC_containing",
+        "delta_AUC",
+        "CI95_lower",
+        "CI95_upper",
+        "DeLong_p",
+        "n",
+        "events",
+        "BH_FDR"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/complete_vs_noncomplete_baseline.csv": {
+      "columns": [
+        "variable",
+        "complete",
+        "non_complete",
+        "p",
+        "test"
+      ],
+      "max_rows": 5
+    },
+    "outputs/tables/eicu_sicu_lab_value_qc.csv": {
+      "columns": [
+        "variable",
+        "n_panel_rows",
+        "n_missing",
+        "n_zero",
+        "n_negative",
+        "min",
+        "median",
+        "max"
+      ],
+      "max_rows": 5
+    },
+    "outputs/tables/eicu_sicu_lymphocyte_vs_nlr.csv": {
+      "columns": [
+        "comparison",
+        "AUC_a",
+        "AUC_control",
+        "delta_AUC",
+        "direction",
+        "DeLong_p",
+        "n",
+        "events"
+      ],
+      "max_rows": 1
+    },
+    "outputs/tables/eicu_sicu_paired_delong_bootstrap.csv": {
+      "columns": [
+        "comparison",
+        "AUC_a",
+        "AUC_control",
+        "delta_AUC",
+        "direction",
+        "DeLong_p",
+        "n",
+        "events",
+        "CI95_lower",
+        "CI95_upper",
+        "bootstrap_replicates"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/eicu_sicu_patient_level_flow.csv": {
+      "columns": [
+        "stage",
+        "n",
+        "events"
+      ],
+      "max_rows": 6
+    },
+    "outputs/tables/eicu_sicu_prewindow_pairs.csv": {
+      "columns": [
+        "comparison",
+        "AUC_a",
+        "AUC_control",
+        "delta_AUC",
+        "direction",
+        "DeLong_p",
+        "n",
+        "events",
+        "window"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/eicu_sicu_prewindow_single_auc.csv": {
+      "columns": [
+        "metric",
+        "AUC",
+        "n",
+        "events",
+        "window"
+      ],
+      "max_rows": 7
+    },
+    "outputs/tables/eicu_sicu_single_auc.csv": {
+      "columns": [
+        "metric",
+        "AUC",
+        "CI95_lower",
+        "CI95_upper",
+        "direction",
+        "n",
+        "events"
+      ],
+      "max_rows": 7
+    },
+    "outputs/tables/eicu_vs_mimic_paired_delta.csv": {
+      "columns": [
+        "comparison",
+        "mimic_delta_AUC",
+        "eICU_delta_AUC",
+        "delta_difference"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/eicu_vs_mimic_single_auc.csv": {
+      "columns": [
+        "metric",
+        "AUC",
+        "AUC_eICU",
+        "delta_eICU_minus_MIMIC"
+      ],
+      "max_rows": 7
+    },
+    "outputs/tables/emergency_stratified.csv": {
+      "columns": [
+        "comparison",
+        "AUC_free",
+        "AUC_containing",
+        "delta_AUC",
+        "CI95_lower",
+        "CI95_upper",
+        "DeLong_p",
+        "n",
+        "events"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/estimation_accounting.csv": {
+      "columns": [
+        "all_absolute",
+        "at_least_one_estimated",
+        "total"
+      ],
+      "max_rows": 1
+    },
+    "outputs/tables/first_stay_sensitivity.csv": {
+      "columns": [
+        "comparison",
+        "AUC_free",
+        "AUC_containing",
+        "delta_AUC",
+        "CI95_lower",
+        "CI95_upper",
+        "DeLong_p",
+        "n",
+        "events"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/ipw_availability_model_cstat.csv": {
+      "columns": [
+        "comparison",
+        "n_total",
+        "n_available",
+        "n_unavailable",
+        "availability_model_c"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/ipw_balance.csv": {
+      "columns": [
+        "covariate",
+        "smd_unweighted",
+        "smd_weighted",
+        "comparison"
+      ],
+      "max_rows": 34
+    },
+    "outputs/tables/ipw_bootstrap_ci.csv": {
+      "columns": [
+        "comparison",
+        "bootstrap_replicates",
+        "failed",
+        "n_used",
+        "CI95_lower",
+        "bootstrap_mean",
+        "CI95_upper"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/ipw_diagnostics.csv": {
+      "columns": [
+        "comparison",
+        "availability_target",
+        "n_total",
+        "n_available",
+        "n_unavailable",
+        "availability_model_c",
+        "ps_min",
+        "ps_max",
+        "sw_min",
+        "sw_median",
+        "sw_mean",
+        "sw_max",
+        "n_extreme_gt10"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/ipw_outcome_conditioned_bootstrap_ci.csv": {
+      "columns": [
+        "comparison",
+        "bootstrap_replicates",
+        "failed",
+        "n_used",
+        "CI95_lower",
+        "bootstrap_mean",
+        "CI95_upper"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/ipw_outcome_conditioned_diagnostics.csv": {
+      "columns": [
+        "comparison",
+        "availability_target",
+        "n_total",
+        "n_available",
+        "n_unavailable",
+        "availability_model_c",
+        "ps_min",
+        "ps_max",
+        "sw_min",
+        "sw_median",
+        "sw_mean",
+        "sw_max",
+        "n_extreme_gt10"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/ipw_outcome_conditioned_model_cstat.csv": {
+      "columns": [
+        "comparison",
+        "n_total",
+        "n_available",
+        "n_unavailable",
+        "availability_model_c"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/ipw_outcome_conditioned_primary.csv": {
+      "columns": [
+        "comparison",
+        "n",
+        "events",
+        "weighted_AUC_free",
+        "weighted_AUC_containing",
+        "weighted_delta_AUC"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/ipw_weighted_primary.csv": {
+      "columns": [
+        "comparison",
+        "n",
+        "events",
+        "weighted_AUC_free",
+        "weighted_AUC_containing",
+        "weighted_delta_AUC"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/lymphocyte_auc_positive_control.csv": {
+      "columns": [
+        "metric",
+        "AUC",
+        "CI95_lower",
+        "CI95_upper",
+        "direction",
+        "n",
+        "events"
+      ],
+      "max_rows": 3
+    },
+    "outputs/tables/lymphocyte_vs_nlr_paired_delong.csv": {
+      "columns": [
+        "n",
+        "events",
+        "AUC_lymphocyte",
+        "AUC_NLR",
+        "delta_AUC_NLR_minus_lymphocyte",
+        "DeLong_p",
+        "paired"
+      ],
+      "max_rows": 1
+    },
+    "outputs/tables/missingness_mechanism.csv": {
+      "columns": [
+        "category",
+        "n",
+        "events",
+        "mortality_pct"
+      ],
+      "max_rows": 4
+    },
+    "outputs/tables/platelet_tertile_mortality.csv": {
+      "columns": [
+        "platelet_tertile",
+        "n",
+        "events",
+        "mortality_pct"
+      ],
+      "max_rows": 3
+    },
+    "outputs/tables/plr_single_auc_v2.csv": {
+      "columns": [
+        "metric",
+        "AUC",
+        "CI95_lower",
+        "CI95_upper",
+        "n",
+        "events"
+      ],
+      "max_rows": 1
+    },
+    "outputs/tables/reviewer_additional_results.csv": {
+      "columns": [
+        "comparison",
+        "AUC_PLR",
+        "AUC_inverse_lymphocyte",
+        "delta_AUC",
+        "DeLong_p",
+        "CI95_lower",
+        "CI95_upper",
+        "bootstrap_replicates",
+        "platelet_AUC",
+        "platelet_CI95_lower",
+        "platelet_CI95_upper",
+        "n",
+        "events"
+      ],
+      "max_rows": 1
+    },
+    "outputs/tables/reviewer_all_absolute_subgroup_ci.csv": {
+      "columns": [
+        "comparison",
+        "AUC_with_platelet",
+        "AUC_control",
+        "delta_AUC",
+        "DeLong_p",
+        "CI95_lower",
+        "CI95_upper",
+        "n",
+        "events",
+        "bootstrap_replicates"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/table1_baseline_long.csv": {
+      "columns": [
+        "section",
+        "variable",
+        "level",
+        "overall",
+        "survivors",
+        "nonsurvivors",
+        "p"
+      ],
+      "max_rows": 23
+    },
+    "outputs/tables/table2_single_auc.csv": {
+      "columns": [
+        "metric",
+        "AUC",
+        "CI95_lower",
+        "CI95_upper",
+        "n",
+        "events"
+      ],
+      "max_rows": 6
+    },
+    "outputs/tables/Table2_single_auc_paper.csv": {
+      "columns": [
+        "metric",
+        "AUC",
+        "CI95",
+        "n",
+        "events"
+      ],
+      "max_rows": 6
+    },
+    "outputs/tables/Table3_paired_auc_paper.csv": {
+      "columns": [
+        "comparison",
+        "AUC_with_platelet",
+        "AUC_control",
+        "dAUC",
+        "n",
+        "events",
+        "direction",
+        "p_DeLong",
+        "p_BH",
+        "CI95_lower",
+        "CI95_upper"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/table3_paired_delta.csv": {
+      "columns": [
+        "comparison",
+        "AUC_marker",
+        "AUC_NLR",
+        "delta_AUC",
+        "direction",
+        "DeLong_p",
+        "n",
+        "events",
+        "p_BH",
+        "CI95_lower",
+        "CI95_upper"
+      ],
+      "max_rows": 4
+    },
+    "outputs/tables/table3_paired_delta_v2.csv": {
+      "columns": [
+        "comparison",
+        "AUC_with_platelet",
+        "AUC_control",
+        "delta_AUC",
+        "direction",
+        "DeLong_p",
+        "n",
+        "events",
+        "p_BH"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/table3b_bootstrap_ci.csv": {
+      "columns": [
+        "comparison",
+        "delta_AUC",
+        "CI95_lower",
+        "CI95_upper",
+        "bootstrap_replicates"
+      ],
+      "max_rows": 4
+    },
+    "outputs/tables/table3b_bootstrap_ci_v2.csv": {
+      "columns": [
+        "comparison",
+        "delta_AUC",
+        "CI95_lower",
+        "CI95_upper",
+        "bootstrap_replicates"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/table4_rmst.csv": {
+      "columns": [
+        "analysis",
+        "tau_days",
+        "rmst_Q1",
+        "rmst_Q4",
+        "difference_Q4_minus_Q1",
+        "CI95_lower",
+        "CI95_upper",
+        "p_value",
+        "n_Q1",
+        "n_Q4",
+        "events_Q1",
+        "events_Q4"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/tableS_all_abs_subgroup.csv": {
+      "columns": [
+        "comparison",
+        "n",
+        "events",
+        "AUC_with_platelet",
+        "AUC_control",
+        "dAUC",
+        "direction",
+        "p_DeLong"
+      ],
+      "max_rows": 2
+    },
+    "outputs/tables/tableS_correlation.csv": {
+      "columns": [
+        "variable",
+        "sii",
+        "nlr",
+        "piv",
+        "siri",
+        "plr"
+      ],
+      "max_rows": 5
+    }
+  },
+  "Additional_file_2_procedure_adjudication.zip": {
+    "D2_ICD9_45_46_codebook.csv": {
+      "columns": [
+        "icd_code",
+        "long_title",
+        "n"
+      ],
+      "max_rows": 88
+    },
+    "D2_review_14_codes_adjudication.csv": {
+      "columns": [
+        "icd_code",
+        "long_title",
+        "tier",
+        "reason"
+      ],
+      "max_rows": 14
+    },
+    "ICD10_actual_target_codes.csv": {
+      "columns": [
+        "icd_code",
+        "long_title",
+        "n_proc",
+        "root_operation",
+        "body_part",
+        "approach"
+      ],
+      "max_rows": 195
+    },
+    "same_day_exclusion_counts.csv": {
+      "columns": [
+        "metric",
+        "value"
+      ],
+      "max_rows": 13
+    }
+  },
+  "Additional_file_3_primary_marker_results.zip": {
+    "appendixS1_cv_coupling_check.csv": {
+      "columns": [
+        "database",
+        "n",
+        "mean_plt",
+        "sd_plt",
+        "cv_plt",
+        "mean_nlr",
+        "sd_nlr",
+        "cv_nlr",
+        "corr_plt_nlr",
+        "corr_theory",
+        "corr_obs_spearman",
+        "corr_obs_pearson",
+        "delta",
+        "delta_pearson"
+      ],
+      "max_rows": 2
+    },
+    "available_case_plr.csv": {
+      "columns": [
+        "comparison",
+        "AUC_free",
+        "AUC_containing",
+        "delta_AUC",
+        "CI95_lower",
+        "CI95_upper",
+        "DeLong_p",
+        "n",
+        "events"
+      ],
+      "max_rows": 1
+    },
+    "available_case_primary.csv": {
+      "columns": [
+        "comparison",
+        "AUC_free",
+        "AUC_containing",
+        "delta_AUC",
+        "CI95_lower",
+        "CI95_upper",
+        "DeLong_p",
+        "n",
+        "events",
+        "BH_FDR"
+      ],
+      "max_rows": 2
+    },
+    "common_sample_sensitivity.csv": {
+      "columns": [
+        "comparison",
+        "AUC_free",
+        "AUC_containing",
+        "delta_AUC",
+        "CI95_lower",
+        "CI95_upper",
+        "DeLong_p",
+        "n",
+        "events",
+        "BH_FDR"
+      ],
+      "max_rows": 2
+    },
+    "platelet_tertile_mortality.csv": {
+      "columns": [
+        "platelet_tertile",
+        "n",
+        "events",
+        "mortality_pct"
+      ],
+      "max_rows": 3
+    },
+    "reviewer_additional_results.csv": {
+      "columns": [
+        "comparison",
+        "AUC_PLR",
+        "AUC_inverse_lymphocyte",
+        "delta_AUC",
+        "DeLong_p",
+        "CI95_lower",
+        "CI95_upper",
+        "bootstrap_replicates",
+        "platelet_AUC",
+        "platelet_CI95_lower",
+        "platelet_CI95_upper",
+        "n",
+        "events"
+      ],
+      "max_rows": 1
+    },
+    "table1_baseline_long.csv": {
+      "columns": [
+        "section",
+        "variable",
+        "level",
+        "overall",
+        "survivors",
+        "nonsurvivors",
+        "p"
+      ],
+      "max_rows": 23
+    },
+    "tableS_correlation.csv": {
+      "columns": [
+        "variable",
+        "sii",
+        "nlr",
+        "piv",
+        "siri",
+        "plr"
+      ],
+      "max_rows": 5
+    },
+    "lymphocyte_vs_nlr_paired_delong.csv": {
+      "columns": [
+        "n",
+        "events",
+        "AUC_lymphocyte",
+        "AUC_NLR",
+        "delta_AUC_NLR_minus_lymphocyte",
+        "DeLong_p",
+        "paired"
+      ],
+      "max_rows": 1
+    }
+  },
+  "Additional_file_4_sensitivity_ipw_results.zip": {
+    "admission_type_stratum_counts.csv": {
+      "columns": [
+        "admission_type_group",
+        "n",
+        "events"
+      ],
+      "max_rows": 3
+    },
+    "cbc_panel_selection_counts.csv": {
+      "columns": [
+        "comparison",
+        "n_absolute_first",
+        "n_latest_panel",
+        "n_hadm_selecting_different_panel"
+      ],
+      "max_rows": 2
+    },
+    "cbc_panel_selection_sensitivity.csv": {
+      "columns": [
+        "selection",
+        "comparison",
+        "n",
+        "events",
+        "AUC_free",
+        "AUC_containing",
+        "delta_AUC",
+        "DeLong_p",
+        "CI95_lower",
+        "CI95_upper",
+        "bootstrap_replicates"
+      ],
+      "max_rows": 4
+    },
+    "cluster_bootstrap_ci.csv": {
+      "columns": [
+        "comparison",
+        "delta_definition",
+        "cluster_CI95_lower",
+        "cluster_CI95_upper",
+        "n_subjects"
+      ],
+      "max_rows": 2
+    },
+    "complete_vs_noncomplete_baseline.csv": {
+      "columns": [
+        "variable",
+        "complete",
+        "non_complete",
+        "p",
+        "test"
+      ],
+      "max_rows": 5
+    },
+    "emergency_stratified.csv": {
+      "columns": [
+        "comparison",
+        "AUC_free",
+        "AUC_containing",
+        "delta_AUC",
+        "CI95_lower",
+        "CI95_upper",
+        "DeLong_p",
+        "n",
+        "events"
+      ],
+      "max_rows": 2
+    },
+    "estimation_accounting.csv": {
+      "columns": [
+        "all_absolute",
+        "at_least_one_estimated",
+        "total"
+      ],
+      "max_rows": 1
+    },
+    "first_stay_sensitivity.csv": {
+      "columns": [
+        "comparison",
+        "AUC_free",
+        "AUC_containing",
+        "delta_AUC",
+        "CI95_lower",
+        "CI95_upper",
+        "DeLong_p",
+        "n",
+        "events"
+      ],
+      "max_rows": 2
+    },
+    "ipw_availability_model_cstat.csv": {
+      "columns": [
+        "comparison",
+        "n_total",
+        "n_available",
+        "n_unavailable",
+        "availability_model_c"
+      ],
+      "max_rows": 2
+    },
+    "ipw_balance.csv": {
+      "columns": [
+        "covariate",
+        "smd_unweighted",
+        "smd_weighted",
+        "comparison"
+      ],
+      "max_rows": 34
+    },
+    "ipw_bootstrap_ci.csv": {
+      "columns": [
+        "comparison",
+        "bootstrap_replicates",
+        "failed",
+        "n_used",
+        "CI95_lower",
+        "bootstrap_mean",
+        "CI95_upper"
+      ],
+      "max_rows": 2
+    },
+    "ipw_diagnostics.csv": {
+      "columns": [
+        "comparison",
+        "availability_target",
+        "n_total",
+        "n_available",
+        "n_unavailable",
+        "ps_min",
+        "ps_max",
+        "ps_avail_min",
+        "ps_avail_max",
+        "ps_unavail_min",
+        "ps_unavail_max",
+        "sw_min",
+        "sw_q1",
+        "sw_median",
+        "sw_mean",
+        "sw_q3",
+        "sw_max",
+        "n_extreme_gt10"
+      ],
+      "max_rows": 2
+    },
+    "ipw_outcome_conditioned_bootstrap_ci.csv": {
+      "columns": [
+        "comparison",
+        "bootstrap_replicates",
+        "failed",
+        "n_used",
+        "CI95_lower",
+        "bootstrap_mean",
+        "CI95_upper"
+      ],
+      "max_rows": 2
+    },
+    "ipw_outcome_conditioned_diagnostics.csv": {
+      "columns": [
+        "comparison",
+        "availability_target",
+        "n_total",
+        "n_available",
+        "n_unavailable",
+        "ps_min",
+        "ps_max",
+        "ps_avail_min",
+        "ps_avail_max",
+        "ps_unavail_min",
+        "ps_unavail_max",
+        "sw_min",
+        "sw_q1",
+        "sw_median",
+        "sw_mean",
+        "sw_q3",
+        "sw_max",
+        "n_extreme_gt10"
+      ],
+      "max_rows": 2
+    },
+    "ipw_outcome_conditioned_model_cstat.csv": {
+      "columns": [
+        "comparison",
+        "n_total",
+        "n_available",
+        "n_unavailable",
+        "availability_model_c"
+      ],
+      "max_rows": 2
+    },
+    "ipw_outcome_conditioned_primary.csv": {
+      "columns": [
+        "comparison",
+        "n",
+        "events",
+        "weighted_AUC_free",
+        "weighted_AUC_containing",
+        "weighted_delta_AUC"
+      ],
+      "max_rows": 2
+    },
+    "ipw_weighted_primary.csv": {
+      "columns": [
+        "comparison",
+        "n",
+        "events",
+        "weighted_AUC_free",
+        "weighted_AUC_containing",
+        "weighted_delta_AUC"
+      ],
+      "max_rows": 2
+    },
+    "missingness_mechanism.csv": {
+      "columns": [
+        "category",
+        "n",
+        "events",
+        "mortality_pct"
+      ],
+      "max_rows": 4
+    },
+    "reviewer_all_absolute_subgroup_ci.csv": {
+      "columns": [
+        "comparison",
+        "AUC_with_platelet",
+        "AUC_control",
+        "delta_AUC",
+        "DeLong_p",
+        "CI95_lower",
+        "CI95_upper",
+        "n",
+        "events",
+        "bootstrap_replicates"
+      ],
+      "max_rows": 2
+    }
+  },
+  "Additional_file_5_eicu_results.zip": {
+    "eicu_prewindow_paired_delong_bootstrap.csv": {
+      "columns": [
+        "comparison",
+        "AUC_a",
+        "AUC_control",
+        "delta_AUC",
+        "direction",
+        "DeLong_p",
+        "n",
+        "events",
+        "CI95_lower",
+        "CI95_upper",
+        "bootstrap_replicates"
+      ],
+      "max_rows": 2
+    },
+    "eicu_sicu_correlation_matrix.csv": {
+      "columns": [
+        "variable",
+        "NLR",
+        "SII",
+        "SIRI",
+        "PIV",
+        "PLR"
+      ],
+      "max_rows": 5
+    },
+    "eicu_sicu_correlation_matrix_long.csv": {
+      "columns": [
+        "index_1",
+        "index_2",
+        "spearman_r"
+      ],
+      "max_rows": 25
+    },
+    "eicu_sicu_paired_delong_bootstrap.csv": {
+      "columns": [
+        "comparison",
+        "AUC_a",
+        "AUC_control",
+        "delta_AUC",
+        "direction",
+        "DeLong_p",
+        "n",
+        "events",
+        "CI95_lower",
+        "CI95_upper",
+        "bootstrap_replicates"
+      ],
+      "max_rows": 2
+    }
+  },
+  "Additional_file_6_supplement_comparison.zip": {
+    "supplement_calibration.csv": {
+      "columns": [
+        "model",
+        "n",
+        "events",
+        "cal_intercept_mean",
+        "cal_intercept_sd",
+        "cal_slope_mean",
+        "cal_slope_sd",
+        "brier_mean",
+        "brier_sd",
+        "cv_auc_mean",
+        "cv_auc_sd"
+      ],
+      "max_rows": 5
+    },
+    "supplement_calibration_binned.csv": {
+      "columns": [
+        "model",
+        "decile",
+        "pred",
+        "obs",
+        "n"
+      ],
+      "max_rows": 50
+    },
+    "supplement_count_agreement.csv": {
+      "columns": [
+        "cell",
+        "n",
+        "pearson_r",
+        "lin_ccc",
+        "geometric_mean_ratio",
+        "ratio_loa_lower",
+        "ratio_loa_upper"
+      ],
+      "max_rows": 3
+    },
+    "supplement_dca.csv": {
+      "columns": [
+        "model",
+        "threshold",
+        "mean_net_benefit",
+        "sd_net_benefit"
+      ],
+      "max_rows": 252
+    },
+    "supplement_eicu_dx_counts.csv": {
+      "columns": [
+        "group",
+        "patients",
+        "deaths"
+      ],
+      "max_rows": 4
+    },
+    "supplement_eicu_dx_restricted.csv": {
+      "columns": [
+        "cohort",
+        "n",
+        "events",
+        "delta_AUC_free_minus_cont_NLR_SII",
+        "lo_NLR_SII",
+        "hi_NLR_SII",
+        "p_NLR_SII",
+        "delta_AUC_free_minus_cont_SIRI_PIV",
+        "lo_SIRI_PIV",
+        "hi_SIRI_PIV",
+        "p_SIRI_PIV"
+      ],
+      "max_rows": 2
+    },
+    "supplement_incremental_base_model.csv": {
+      "columns": [
+        "sample",
+        "n",
+        "events",
+        "index",
+        "cv_base_auc_mean",
+        "cv_base_auc_sd",
+        "cv_added_auc_mean",
+        "cv_added_auc_sd",
+        "cv_delta_AUC_added_minus_base_mean",
+        "cv_delta_AUC_added_minus_base_sd",
+        "LRT_p"
+      ],
+      "max_rows": 4
+    }
+  },
+  "Additional_file_7_extended_audit_analyses.zip": {
+    "adjusted_OR_by_index.csv": {
+      "columns": [
+        "marker",
+        "model",
+        "n",
+        "events",
+        "OR_per_SD_log_index",
+        "CI_lower",
+        "CI_upper",
+        "p"
+      ],
+      "max_rows": 15
+    },
+    "adjusted_platelet_rcs_curve.csv": {
+      "columns": [
+        "plt",
+        "age",
+        "sex_f",
+        "adm_grp",
+        "charlson",
+        "yhat",
+        "lower",
+        "upper"
+      ],
+      "max_rows": 200
+    },
+    "albumin_pni_sensitivity.csv": {
+      "columns": [
+        "marker",
+        "n",
+        "events",
+        "OR_per_SD",
+        "CI_lower",
+        "CI_upper",
+        "AUC"
+      ],
+      "max_rows": 2
+    },
+    "median_quartile_classification.csv": {
+      "columns": [
+        "marker",
+        "classification",
+        "cutoff",
+        "n",
+        "events",
+        "OR_high_vs_low",
+        "OR_CI_lower",
+        "OR_CI_upper",
+        "p",
+        "AUC_binary",
+        "quartile"
+      ],
+      "max_rows": 20
+    },
+    "severity_score_benchmark.csv": {
+      "columns": [
+        "score",
+        "n",
+        "events",
+        "base_AUC",
+        "base_plus_score_AUC",
+        "delta_AUC",
+        "LRT_p"
+      ],
+      "max_rows": 3
+    },
+    "subgroup_interaction_bootstrap.csv": {
+      "columns": [
+        "subgroup",
+        "level_1",
+        "level_2",
+        "comparison",
+        "interaction_delta_level1_minus_level2",
+        "interaction_CI_lower",
+        "interaction_CI_upper",
+        "interaction_p",
+        "bootstrap_replicates"
+      ],
+      "max_rows": 10
+    },
+    "subgroup_paired_auc.csv": {
+      "columns": [
+        "subgroup",
+        "level",
+        "comparison",
+        "n",
+        "events",
+        "delta_AUC",
+        "CI_lower",
+        "CI_upper",
+        "DeLong_p"
+      ],
+      "max_rows": 20
+    },
+    "time_window_backfill.csv": {
+      "columns": [
+        "comparison",
+        "window",
+        "n",
+        "events",
+        "delta_AUC_free_minus_containing"
+      ],
+      "max_rows": 4
+    },
+    "youden_cutoffs_optimism_corrected.csv": {
+      "columns": [
+        "marker",
+        "n",
+        "events",
+        "cutoff",
+        "apparent_sensitivity",
+        "apparent_specificity",
+        "apparent_youden",
+        "optimism_sensitivity",
+        "optimism_specificity",
+        "optimism_youden",
+        "corrected_sensitivity",
+        "corrected_specificity",
+        "corrected_youden",
+        "bootstrap_replicates"
+      ],
+      "max_rows": 5
+    },
+    "reclassification_NRI_IDI.csv": {
+      "columns": [
+        "sample",
+        "comparison_old_to_new",
+        "n",
+        "events",
+        "unique_subjects",
+        "NRI_event",
+        "NRI_event_CI_lower",
+        "NRI_event_CI_upper",
+        "NRI_event_partition_SD",
+        "NRI_nonevent",
+        "NRI_nonevent_CI_lower",
+        "NRI_nonevent_CI_upper",
+        "NRI_nonevent_partition_SD",
+        "NRI_continuous",
+        "NRI_continuous_CI_lower",
+        "NRI_continuous_CI_upper",
+        "NRI_continuous_partition_SD",
+        "IDI",
+        "IDI_CI_lower",
+        "IDI_CI_upper",
+        "IDI_partition_SD",
+        "bootstrap_replicates",
+        "cv_repeats",
+        "cv_folds"
+      ],
+      "max_rows": 6
+    },
+    "winsorized_paired_AUC.csv": {
+      "columns": [
+        "scheme",
+        "lower_quantile",
+        "upper_quantile",
+        "comparison",
+        "n",
+        "events",
+        "AUC_platelet_free",
+        "AUC_platelet_containing",
+        "delta_AUC_free_minus_containing",
+        "CI_lower",
+        "CI_upper",
+        "bootstrap_replicates"
+      ],
+      "max_rows": 10
+    },
+    "winsorized_adjusted_OR.csv": {
+      "columns": [
+        "scheme",
+        "lower_quantile",
+        "upper_quantile",
+        "marker",
+        "n",
+        "events",
+        "OR_per_SD_log_index",
+        "CI_lower",
+        "CI_upper",
+        "p"
+      ],
+      "max_rows": 25
+    }
+  }
+}

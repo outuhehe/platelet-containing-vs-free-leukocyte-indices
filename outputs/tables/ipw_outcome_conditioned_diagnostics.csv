@@ -1,0 +1,3 @@
+"comparison","availability_target","n_total","n_available","n_unavailable","availability_model_c","ps_min","ps_max","sw_min","sw_median","sw_mean","sw_max","n_extreme_gt10"
+"NLR_vs_SII_outcome_conditioned","has_panel",2376,886,1490,0.606451967215598,0.0762207656681255,0.6858898245478,0.543666941175967,0.962721078327256,0.999418752772827,3.04033604671178,0
+"SIRI_vs_PIV_outcome_conditioned","five",2376,879,1497,0.60714299284956,0.0717410485578001,0.683722611055405,0.541081264488877,0.959466958142899,0.999617789667195,3.07197756528157,0

@@ -1,0 +1,7 @@
+stage,n,events
+SICU first adult stays,9824,
+strict five-item same-offset stays,3024,287
+stays with valid numeric main-window panel,3004,283
+unique people with a valid main stay,2866,277
+patient-level index stays with outcome offset,2866,277
+patient-level analysis after positive ALC,2855,276

@@ -1,0 +1,2 @@
+comparison,AUC_PLR,AUC_inverse_lymphocyte,delta_AUC,DeLong_p,CI95_lower,CI95_upper,bootstrap_replicates,platelet_AUC,platelet_CI95_lower,platelet_CI95_upper,n,events
+PLR vs inverse lymphocyte,0.543937942644839,0.686585684430512,-0.142647741785673,1.13932260926067e-06,-0.202010224370138,-0.0866217853825612,2000,0.668640427261117,0.596874094678027,0.740406759844207,879,87

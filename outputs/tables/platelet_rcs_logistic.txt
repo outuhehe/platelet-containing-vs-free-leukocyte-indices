@@ -1,0 +1,25 @@
+Logistic Regression Model
+
+rms::lrm(formula = y ~ rms::rcs(log(plt), 3), data = dd, x = TRUE, 
+    y = TRUE)
+
+                      Model Likelihood      Discrimination    Rank Discrim.    
+                            Ratio Test             Indexes          Indexes    
+Obs           879    LR chi2     54.95      R2       0.127    C       0.714    
+ 0            792    d.f.            2      R2(2,879)0.058    Dxy     0.427    
+ 1             87    P(> chi2) <0.0001    R2(2,235.2)0.202    gamma   0.428    
+max |deriv| 3e-07                           Brier    0.081    tau-a   0.076    
+
+          Coef    S.E.   Wald Z P(>|Z|)
+Intercept  8.1316 1.5162  5.36  <0.0001
+plt       -2.0078 0.3024 -6.64  <0.0001
+plt'       1.6629 0.4650  3.58  0.0003 
+
+
+Wald test of nonlinear spline term:
+                Wald Statistics          Response: y 
+
+ Factor     Chi-Square d.f. P     
+ plt        50.77      2    <.0001
+  Nonlinear 12.79      1    3e-04 
+ TOTAL      50.77      2    <.0001

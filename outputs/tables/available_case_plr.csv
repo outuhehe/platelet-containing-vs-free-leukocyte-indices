@@ -1,0 +1,2 @@
+"comparison","AUC_free","AUC_containing","delta_AUC","CI95_lower","CI95_upper","DeLong_p","n","events"
+"Inverse lymphocyte vs PLR (available-case, descriptive)",0.677506365715765,0.533684346812826,-0.143822018902939,-0.205249377814222,-0.0906362838605728,5.66063802951147e-07,886,87

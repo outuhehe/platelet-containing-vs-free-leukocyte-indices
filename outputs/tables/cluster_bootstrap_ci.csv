@@ -1,0 +1,3 @@
+"comparison","delta_definition","cluster_CI95_lower","cluster_CI95_upper","n_subjects"
+"NLR vs SII","platelet-containing minus platelet-free",-0.153721601687064,-0.0670676746776706,877
+"SIRI vs PIV","platelet-containing minus platelet-free",-0.120597606356132,-0.0546922523622604,877
