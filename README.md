@@ -266,3 +266,21 @@ prespecified. IDI in CSV files is on the absolute probability scale; the
 manuscript supplementary table multiplies it by 100 (percentage points).
 Component-wise winsorization rebuilds formulas after capping blood counts;
 index-wise capping is a separate sensitivity. Both retain all common-sample stays.
+
+## Supplementary material for the medRxiv preprint
+
+`supplementary/` mirrors the files uploaded with the medRxiv submission.
+
+| File | Content |
+| --- | --- |
+| `Supplementary_material.pdf` | Supplementary methods M1-M6, Figures S1-S2 and Tables S1-S6 |
+| `coi_disclosure_QiYang.pdf` | Signed ICMJE conflict-of-interest disclosure |
+| `Additional_file_1.zip` to `Additional_file_7.zip` | Code archive and aggregate result tables, matching the numbering in the manuscript |
+
+These files contain analysis code, method documentation and aggregate results only. No patient-,
+stay- or row-level records, identifiers, credentials or individual-level derived data from
+MIMIC-IV or eICU-CRD are included. The source databases remain available only to credentialed
+users on PhysioNet (https://physionet.org/) under the PhysioNet Credentialed Health Data Use
+Agreement; redistribution of the source data is prohibited and nothing in this repository
+provides access to it. `Additional_file_1.zip` duplicates the code at the repository root and is
+supplied only so that the file numbering matches the manuscript.
