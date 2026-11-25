@@ -267,9 +267,9 @@ manuscript supplementary table multiplies it by 100 (percentage points).
 Component-wise winsorization rebuilds formulas after capping blood counts;
 index-wise capping is a separate sensitivity. Both retain all common-sample stays.
 
-## Supplementary material for the medRxiv preprint
+## Supplementary material
 
-`supplementary/` mirrors the files uploaded with the medRxiv submission.
+`supplementary/` mirrors the files supplied with the manuscript.
 
 | File | Content |
 | --- | --- |
