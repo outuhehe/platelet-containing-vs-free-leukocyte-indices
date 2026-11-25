@@ -6,9 +6,9 @@ ra <- normalizePath(ra, winslash = "/", mustWork = TRUE)
 .libPaths(c(file.path(ra, "Rlib"), .libPaths()))
 tab <- file.path(ra, "outputs", "tables")
 int <- file.path(ra, "outputs", "interim")
-out <- Sys.getenv("FRONTMED_FIGURE_DIR", unset = file.path(ra, "outputs", "figures"))
+out <- Sys.getenv("STUDY_FIGURE_DIR", unset = file.path(ra, "outputs", "figures"))
 dir.create(out, recursive = TRUE, showWarnings = FALSE)
-which_figures <- strsplit(Sys.getenv("FRONTMED_PLOT_WHICH", unset = "2,3,4,5"), ",", fixed = TRUE)[[1]]
+which_figures <- strsplit(Sys.getenv("STUDY_PLOT_WHICH", unset = "2,3,4,5"), ",", fixed = TRUE)[[1]]
 read_tab <- function(name) read.csv(file.path(tab, name), check.names = FALSE)
 save_pair <- function(stem, draw, width, height) {
   png(file.path(out, paste0(stem, ".png")), width = width, height = height, res = 300)

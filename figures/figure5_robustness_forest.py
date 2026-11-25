@@ -22,7 +22,7 @@ import csv, os
 from pathlib import Path
 RA = Path(os.getenv("RA_ROOT", Path(__file__).resolve().parent.parent))
 TAB = RA / "outputs" / "tables"
-OUTDIR = Path(os.getenv("FRONTMED_FIGURE_DIR", RA / "outputs" / "figures"))
+OUTDIR = Path(os.getenv("STUDY_FIGURE_DIR", RA / "outputs" / "figures"))
 OUTDIR.mkdir(parents=True, exist_ok=True)
 def table(name):
     with (TAB/name).open(encoding="utf-8-sig",newline="") as f: return list(csv.DictReader(f))

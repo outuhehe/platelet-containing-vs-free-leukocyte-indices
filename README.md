@@ -1,7 +1,7 @@
 # Reproducible analysis — platelet-free vs platelet-containing inflammatory indices after major abdominal surgery (MIMIC-IV / eICU-CRD)
 
 Auditable, fully local, one-command reproduction of the analysis reported in the
-Frontiers in Medicine submission. The central finding is that, among patients with a complete
+manuscript submitted for peer review. The central finding is that, among patients with a complete
 preoperative differential-CBC panel, the **platelet-free** indices (NLR, SIRI)
 discriminate in-hospital death better than the **platelet-containing** products
 (SII, PIV) on paired AUC comparisons. The eICU analysis is a **direction-consistency

@@ -1,4 +1,4 @@
-Sys.setenv(FRONTMED_SKIP_MAIN = "1")
+Sys.setenv(STUDY_SKIP_MAIN = "1")
 args <- commandArgs(FALSE)
 this <- normalizePath(sub("^--file=", "", grep("^--file=", args, value = TRUE)[1]), winslash = "/")
 source(file.path(dirname(this), "..", "R", "21_reclassification_winsorization.R"))

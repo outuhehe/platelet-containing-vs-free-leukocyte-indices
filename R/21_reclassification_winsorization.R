@@ -97,12 +97,12 @@ apply_winsor <- function(d, scheme, tail) {
 
 main <- function() {
   RA <- normalizePath(Sys.getenv("RA_ROOT", unset = "reproducible_analysis"), winslash = "/", mustWork = TRUE)
-  OUT <- Sys.getenv("FRONTMED_NRI_OUT", unset = file.path(RA, "outputs", "reclassification_winsorization"))
+  OUT <- Sys.getenv("STUDY_NRI_OUT", unset = file.path(RA, "outputs", "reclassification_winsorization"))
   dir.create(OUT, recursive = TRUE, showWarnings = FALSE)
-  B <- as.integer(Sys.getenv("FRONTMED_NRI_B", "500"))
-  BW <- as.integer(Sys.getenv("FRONTMED_WINSOR_B", "2000"))
-  REPS <- as.integer(Sys.getenv("FRONTMED_NRI_REPEATS", "20"))
-  WORKERS <- max(1L, min(as.integer(Sys.getenv("FRONTMED_NRI_WORKERS", "4")), parallel::detectCores()))
+  B <- as.integer(Sys.getenv("STUDY_NRI_B", "500"))
+  BW <- as.integer(Sys.getenv("STUDY_WINSOR_B", "2000"))
+  REPS <- as.integer(Sys.getenv("STUDY_NRI_REPEATS", "20"))
+  WORKERS <- max(1L, min(as.integer(Sys.getenv("STUDY_NRI_WORKERS", "4")), parallel::detectCores()))
   stopifnot(B >= 2L, BW >= 2L, REPS >= 2L)
   set.seed(20261121)
   roster <- read.csv(file.path(RA, "outputs", "interim", "cohort_roster_2376.csv"))
@@ -226,4 +226,4 @@ main <- function() {
   message("Analysis complete; all logistic fits converged")
 }
 
-if (Sys.getenv("FRONTMED_SKIP_MAIN", "0") != "1") main()
+if (Sys.getenv("STUDY_SKIP_MAIN", "0") != "1") main()
