@@ -252,8 +252,8 @@ Rscript .\R\21_reclassification_winsorization.R
 Default settings: 20 repeated subject-grouped, outcome-stratified 10-fold
 partitions, 500 full refit subject-cluster bootstrap samples for NRI/IDI,
 2,000 subject-cluster bootstrap samples for paired-AUC winsorization, 4 workers.
-Optional environment settings: `FRONTMED_NRI_OUT`, `FRONTMED_NRI_B`,
-`FRONTMED_WINSOR_B`, `FRONTMED_NRI_REPEATS`, `FRONTMED_NRI_WORKERS`.
+Optional environment settings: `STUDY_NRI_OUT`, `STUDY_NRI_B`,
+`STUDY_WINSOR_B`, `STUDY_NRI_REPEATS`, `STUDY_NRI_WORKERS`.
 Reduced bootstrap settings are for local checks and do not reproduce the
 released confidence intervals. No additional R packages are needed.
 
